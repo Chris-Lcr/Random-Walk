@@ -10,6 +10,7 @@ import java.awt.geom.Line2D;
 import javax.swing.JComponent;
 
 /**
+ * Extends JComponent. Overrides paintComponent to draw the random walk, using a Drunkard object to keep track of current state of drunkard. 
  * RandomWalkComponent draws input number of random steps with step size of 5 pixels in the middle of the frame.
  * @author Cairu Liao
  */
