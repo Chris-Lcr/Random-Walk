@@ -7,6 +7,7 @@ import java.util.Scanner;
 import javax.swing.JFrame;
 
 /**
+ * JFrame container for JComponent, prompt for input number of steps
  * RandomWalkViewer creates 400x400 pixel window to display RandomWalkComponent in the frame.
  * @author Cairu Liao
  */
