@@ -38,7 +38,7 @@ public class Drunkard {
 	  
 	  //Get a direction randomly
 	  int direction = 1 + ranGen.nextInt(DIRECTION);
-	  
+
 	  switch (direction)
 	  {
 	  case 1: startLoc = startLoc.translate(theStepSize,0);break; // x+deltaX, East
@@ -52,6 +52,7 @@ public class Drunkard {
 * Gets the current location of the drunkard.
 * @return an ImPoint object representing drunkard's current location
 */
+
   public ImPoint getCurrentLoc() {
       return startLoc; 
     }
