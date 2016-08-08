@@ -17,13 +17,11 @@ public class ImPointTester {
     */
     public static void main(String[] args) {
 
-
         imPointTest(100, 82);
 
         imPointTest(0, 0);
 
         imPointTest(50, 60);
-
     }
                 
     /**
