@@ -14,7 +14,7 @@ public class DrunkardTester {
 		ImPoint startLoc1 = new ImPoint(0,0);
 		drunkardTest(startLoc1,5);
 		
-		ImPoint startLoc2 = new ImPoint(100, 82);
+		ImPoint startLoc2 = new ImPoint(1000, 8);
 		drunkardTest(startLoc2,3);	
 		
 		ImPoint startLoc3 = new ImPoint(50, 60);
