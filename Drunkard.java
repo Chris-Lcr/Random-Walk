@@ -38,6 +38,7 @@ public class Drunkard {
 	  
 	  //Get a direction randomly
 	  int direction = 1 + ranGen.nextInt(DIRECTION);
+	  
 	  switch (direction)
 	  {
 	  case 1: startLoc = startLoc.translate(theStepSize,0);break; // x+deltaX, East
