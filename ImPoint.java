@@ -6,6 +6,7 @@
  * Mostly packages together an (x,y) coordinate pair into one object.
  * Also includes conversion to java.awt.Point2D for use with the
  * graphics system.
+ * represent a Drunkard's location
  *
  */
 
